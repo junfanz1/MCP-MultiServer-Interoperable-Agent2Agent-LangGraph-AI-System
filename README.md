@@ -1,4 +1,3 @@
-# MCP-Servers
 
 # **MCP-Servers: Technical Overview**  
 
