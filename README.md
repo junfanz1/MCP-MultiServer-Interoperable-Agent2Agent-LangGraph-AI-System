@@ -1,6 +1,8 @@
 
 # **MCP-Servers: Technical Overview**  
 
+Developed an MCP-based AI infrastructure enabling real-time tool execution, structured knowledge retrieval, and dynamic agentic interactions for AI clients like Claude and Cursor.
+
 ## **Project Overview**  
 The **MCP-Servers** project is focused on implementing and extending an **MCP (Model-Controlled Protocol) Server** that facilitates real-time, documentation-grounded responses for AI systems like Claude and Cursor. The goal is to integrate an **MCP client-server architecture** that enables AI models to access structured knowledge and invoke specific tools dynamically.  
 
