@@ -72,4 +72,33 @@ This project builds an **MCP-driven AI infrastructure** that connects AI models 
 
 MCP is like USB-C, MCP server is like external device that can connect with AI (Claude Desktop) or cloud app. We can write functionality once, and plug into many MCP hosts. MCP client sits inside MCP hosts to 1:1 interact with MCP servers via MCP protocol. MCP clients invoke tools, queries for resources, interpolate prompts; MCP server expose tools (model-controlled: retrieve, DB update, send), resources (app-controlled: DB records, API), prompts (user-controlled: docs).
 
-## Cont'd.
+## MCP + Containerizing
+
+
+Initialize project with UV, create virtual environment with UV, install dependencies (MCP [CLI]), index official MCP documentation with Cursor, update project with Cursor rules
+
+![image](https://github.com/user-attachments/assets/a3e82563-a28f-4276-85c4-0ef77c415f6e)
+
+![image](https://github.com/user-attachments/assets/33df5715-eb57-42ca-847a-e9e21979dd37)
+
+![image](https://github.com/user-attachments/assets/9d567fdc-2a65-4cae-aef3-4e4562919abb)
+
+![image](https://github.com/user-attachments/assets/668b67bc-1c03-4f96-b916-50ba4d39d6c3)
+
+![image](https://github.com/user-attachments/assets/a4276001-60ea-4f66-bf6c-ee86b878af89)
+
+
+Vibe coding
+- @server.py implement a simple MCP server from @MCP . Use the Python SDK @MCP Python SDK and the server should expose one tool which is called terminal tool which will allow user to run terminal commands, make it simple
+- help me expose a resource in my mcp server @MCP, again use @MCP Python SDK to write the code. I want to expose mcpreadme.md under my Desktop directory.
+
+
+
+
+
+
+
+
+
+
+
