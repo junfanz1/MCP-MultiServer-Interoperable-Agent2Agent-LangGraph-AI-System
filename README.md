@@ -210,6 +210,17 @@ AI agents often isolated within specific applications or platforms, they lack co
 
 Developed an MCP-based AI infrastructure enabling real-time tool execution, structured knowledge retrieval, and dynamic agentic interactions for AI clients like Claude and Cursor.
 
+- Designed and implemented an MCP-based AI system enabling real-time tool execution, structured knowledge retrieval, and agentic workflows for AI clients like Claude and Cursor.
+- Developed an MCP server-client architecture to facilitate seamless LLM interactions, exposing tools (get_forecast, get_alerts), resources (API responses, file contents), and prompts (structured task templates).
+- Engineered a dynamic tool execution framework, allowing AI models to invoke external API services with user approval, improving AI-assisted decision-making and automation.
+- Integrated MCP with LangGraph-powered retrieval-augmented generation (RAG) workflows, optimizing contextual document retrieval and structured response generation.
+- Implemented composable AI agents by designing an MCP protocol where AI components act as both clients and servers, enabling multi-layer agentic interactions and modular extensibility.
+- Enhanced system interoperability by leveraging the MCP protocol as a universal AI interface, allowing plug-and-play AI capabilities across different host environments.
+- Built a self-evolving tool registry API, enabling dynamic capability discovery and runtime tool registration, supporting adaptive AI workflows and evolving agentic systems.
+- Optimized AI tool execution with caching and parallel request handling, improving MCP server response time and LLM inference efficiency.
+- Utilized Anthropic’s MCP Inspector for interactive debugging and testing, refining AI-agent behavior and tool execution pipelines.
+- Developed a scalable and extensible framework, enabling future integration of additional AI-driven utilities, automation agents, and external API services within the MCP ecosystem.
+
 ## **Project Overview**  
 The **MCP-Servers** project is focused on implementing and extending an **MCP (Model-Controlled Protocol) Server** that facilitates real-time, documentation-grounded responses for AI systems like Claude and Cursor. The goal is to integrate an **MCP client-server architecture** that enables AI models to access structured knowledge and invoke specific tools dynamically.  
 
@@ -299,7 +310,9 @@ Vibe coding
 - @server.py implement a simple MCP server from @MCP . Use the Python SDK @MCP Python SDK and the server should expose one tool which is called terminal tool which will allow user to run terminal commands, make it simple
 - help me expose a resource in my mcp server @MCP, again use @MCP Python SDK to write the code. I want to expose mcpreadme.md under my Desktop directory.
 
+## Acknowledgements
 
+[MCP Crash Course: Complete Model Context Protocol in a Day](https://www.udemy.com/course/model-context-protocol/)
 
 
 
