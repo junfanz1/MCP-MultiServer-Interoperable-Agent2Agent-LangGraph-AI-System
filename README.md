@@ -2,6 +2,14 @@
 
 This project demonstrates a decoupled real-time agent architecture that connects [LangGraph](https://github.com/langchain-ai/langgraph) agents to remote tools served by custom MCP (Modular Command Protocol) servers. The architecture enables a flexible and scalable multi-agent system where each tool can be hosted independently (via SSE or STDIO), offering modularity and cloud-deployable execution.
 
+- **Decoupled Architecture:** Engineered a modular system where LangGraph-based agents orchestrate LLM workflows while delegating tool execution to remote MCP servers via both SSE and STDIO transports.
+- **Advanced Asynchronous Programming:** Utilized Python’s async/await for non-blocking I/O, ensuring concurrent execution of multiple tools and scalable real-time communication.
+- **MCP & LangGraph Integration:** Demonstrated deep expertise in integrating Modular Command Protocol (MCP) with LangGraph and LangChain, enabling seamless transformation and invocation of distributed tools.
+- **Flexible Multi-Server Connectivity:** Designed a MultiServerMCPClient that supports 1:1 bindings to various tool servers, highlighting the system’s ability to integrate diverse environments (local, cloud, containerized).
+- **Robust Agent-to-Tool Communication:** Implemented detailed client sessions, handshake protocols, and dynamic tool discovery, ensuring reliable execution and interaction between agents and MCP servers.
+- **Forward-Looking Interoperability:** Laid the groundwork for an Agent2Agent protocol, aiming for an ecosystem where AI agents can share capabilities, coordinate actions, and securely exchange context and data.
+
+
 ---
 
 ## 🚀 Project Purpose
