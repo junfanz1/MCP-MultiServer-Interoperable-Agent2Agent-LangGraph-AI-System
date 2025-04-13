@@ -192,6 +192,9 @@ This project showcases a clean separation of concerns in LLM application develop
 
 ![image](https://github.com/user-attachments/assets/dd346140-d392-4b7a-9e8b-e1c485f00cd2)
 
+## ✨ Agent2Agent Protocol
+
+AI agents often isolated within specific applications or platforms, they lack common way to communicate, share info, or coordinate actions with other agents built by different vendors or using different frameworks. A2A defines standard way for agents to discover capabilities, agents can advertise their functions, so other agents know what they can do. Agents can assign and track tasks, including complex long running ones, exchanging status updates and results. Agents can securely exchange messages containing context instructions or data. Agents can agree on best format for presenting info (text, image) based on user interface capabilities. We aim to create interoperable ecosystem where AI agents can seamlessly work together across different enterprise applications.
 
 ---
 
