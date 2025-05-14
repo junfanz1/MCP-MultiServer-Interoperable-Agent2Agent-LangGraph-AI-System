@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/junfanz1-mcp-multiserver-interoperable-agent2agent-langgraph-ai-system-badge.png)](https://mseep.ai/app/junfanz1-mcp-multiserver-interoperable-agent2agent-langgraph-ai-system)
+
 # Part 1. Real-Time LangGraph Agent with MCP Tool Execution
 
 This project demonstrates a decoupled real-time agent architecture that connects [LangGraph](https://github.com/langchain-ai/langgraph) agents to remote tools served by custom MCP (Modular Command Protocol) servers. The architecture enables a flexible and scalable multi-agent system where each tool can be hosted independently (via SSE or STDIO), offering modularity and cloud-deployable execution.
